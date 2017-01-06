@@ -3,8 +3,6 @@ package com.cognizant;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
 public class TextMessageBean {
 
 	private List messages = new ArrayList();
