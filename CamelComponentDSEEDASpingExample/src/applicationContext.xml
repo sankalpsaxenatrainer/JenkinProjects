@@ -12,6 +12,7 @@
 	<bean id="activemq" class="org.apache.activemq.camel.component.ActiveMQComponent">
 		<property name="connectionFactory" ref="connectionFactory" />
 	</bean>
+	
 	<camelContext xmlns="http://camel.apache.org/schema/spring">
 		<route>
 			<from uri="activemq:queue:test.queue" />
